@@ -22,38 +22,6 @@ body {
     display: flex;
 }
 
-/* ===== БОКОВОЕ МЕНЮ ===== */
-
-.sidebar {
-    width: 270px;
-    height: 100vh;
-    position: fixed;
-    background: #0a0a0a;
-    padding: 30px 20px;
-    border-right: 1px solid #1c1c1c;
-    overflow-y: auto;
-}
-
-.sidebar h2 {
-    color: #ff2a2a;
-    margin-bottom: 30px;
-    font-size: 22px;
-    letter-spacing: 1px;
-}
-
-.sidebar nav a {
-    display: block;
-    color: #cccccc;
-    text-decoration: none;
-    padding: 8px 0;
-    font-size: 15px;
-    transition: 0.3s;
-}
-
-.sidebar nav a:hover {
-    color: #ff2a2a;
-    transform: translateX(5px);
-}
 
 /* ===== КОНТЕНТ ===== */
 
@@ -188,3 +156,4 @@ body {
 
 
 }
+
